@@ -13,8 +13,11 @@
           Enjoy!
         img(src='/assets/img/CTA2.png').cta
       .cover
-        //img(src='/assets/img/banner.png').banner
 
+        iframe(scrolling='no', frameborder='0', allowtransparency='true', src='https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=306&height=306&color=007FEB&layout=dark&size=medium&type=album&id=50349162&app_id=1', width=306, height=306)#dz-root.preview-box.mobile
+        iframe(scrolling='no', frameborder='0', allowtransparency='true', src='https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=526&height=526&color=007FEB&layout=dark&size=medium&type=album&id=50349162&app_id=1', width=526, height=526).preview-box.desktop
+        .play-button(onclick="javascript:document.getElementById('dz-root').className += ' fadeIn';this.className += ' hidden';")
+          img(src='/assets/img/playPreview.png')
     .content-container
 
       .title-container

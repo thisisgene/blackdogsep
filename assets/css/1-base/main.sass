@@ -72,11 +72,12 @@ body
         repeat: no-repeat
       border: 2px solid #ddd
 
-      .banner
-        width: 100%
-        opacity: .6
-        transition: all 400ms ease-in-out
-        animation: fade 3s ease-in-out infinite
+
+
+      .play-button
+        display: none
+
+
 
   @media(max-width: 920px)
     flex-direction: column
@@ -89,12 +90,42 @@ body
       .album-info
         display: none
       .cover
+        position: relative
         width: 306px
         height: 306px
 
-        .banner
-          display: none
 
+        .play-button
+          position: absolute
+          top: 0
+          width: 100%
+          height: 100%
+          display: flex
+          align-items: center
+          justify-content: center
+          img
+            width: 50px
+            height: 50px
+
+          &.hidden
+            width: 0
+            height: 0
+            display: none
+            img
+              display: none
+
+        .preview-box.mobile
+          width: 306px
+          height: 306px
+          //transform: translateY(-320px)
+          opacity: 0
+          transition: opacity 200ms ease-in-out
+
+          &.fadeIn
+            opacity: 1
+            //transform: translateY(0)
+        .desktop
+          display: none
 
   @media(min-width: 921px)
 
@@ -125,6 +156,14 @@ body
         transform: translate(350px, 0)
         transition: transform 700ms ease-in-out
         will-change: transform
+
+        .preview-box.desktop
+          width: 100%
+          height: 100%
+          opacity: 0
+
+        .mobile
+          display: none
     //animation: wiggle 4s ease-in-out 3s infinite
 
 
@@ -141,10 +180,8 @@ body
       .cover-container .cover
         //animation-duration: 0s
         transform: translate(0, 0)
-        .banner
-          //animation-iteration-count: 1
-          //transition: all 200ms ease-in-out
-          filter: opacity(0)
+        .preview-box.desktop
+          opacity: 1
 
       //.content-container
       //  transform: translate(0, 0)

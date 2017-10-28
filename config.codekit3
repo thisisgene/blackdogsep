@@ -180,6 +180,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/play.png": {
+		"ft": 32768,
+		"iS": 6126,
+		"oA": 0,
+		"oAP": "\/assets\/img\/play.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/playGrey.png": {
+		"ft": 32768,
+		"iS": 7562,
+		"oA": 0,
+		"oAP": "\/assets\/img\/playGrey.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/playPreview.png": {
+		"ft": 32768,
+		"iS": 8497,
+		"oA": 0,
+		"oAP": "\/assets\/img\/playPreview.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/js\/jquery-3.2.1.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -199,6 +232,12 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/CNAME": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CNAME",
+		"oF": 0
 		},
 	"\/favicon.png": {
 		"ft": 32768,
