@@ -158,6 +158,12 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/button.afdesign": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/img\/button.afdesign",
+		"oF": 0
+		},
 	"\/assets\/img\/CTA.png": {
 		"ft": 32768,
 		"iS": 8173,
@@ -212,6 +218,12 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/assets\/img\/shirt.afdesign": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/img\/shirt.afdesign",
+		"oF": 0
 		},
 	"\/assets\/js\/jquery-3.2.1.min.js": {
 		"ft": 64,
